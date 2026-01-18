@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Between" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/between_surface</item>
+        <item name="colorPrimaryVariant">@color/between_surface</item>
+        <item name="colorOnPrimary">@color/between_text</item>
+        <item name="colorSecondary">@color/between_green</item>
+        <item name="android:statusBarColor">@color/between_background</item>
+        <item name="android:windowBackground">@color/between_background</item>
+        <item name="android:navigationBarColor">@color/between_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+</resources>
