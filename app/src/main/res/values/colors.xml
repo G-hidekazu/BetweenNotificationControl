@@ -1,0 +1,8 @@
+<resources>
+    <color name="between_green">#2ECC71</color>
+    <color name="between_red">#E74C3C</color>
+    <color name="between_background">#0F172A</color>
+    <color name="between_surface">#111827</color>
+    <color name="between_text">#F8FAFC</color>
+    <color name="between_text_muted">#94A3B8</color>
+</resources>

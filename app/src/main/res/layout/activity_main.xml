@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/between_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Between ロック画面通知"
+        android:textColor="@color/between_text"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="アイコンをタップしてON/OFF"
+        android:textColor="@color/between_text_muted"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/toggleButton"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/circle_button"
+        android:contentDescription="Between lock screen toggle"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_lock"
+        android:tint="@color/between_green" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="ロック画面通知: ON"
+        android:textColor="@color/between_text"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/helperText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="ON: ロック画面にBetweenの通知を表示"
+        android:textColor="@color/between_text_muted"
+        android:textSize="12sp" />
+</LinearLayout>
